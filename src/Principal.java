@@ -1,5 +1,3 @@
-import Compra.Compra;
-
 import java.util.Collections;
 import java.util.Scanner;
 
