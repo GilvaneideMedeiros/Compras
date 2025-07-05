@@ -1,6 +1,5 @@
 import Compra.Compra;
 
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
 
@@ -26,7 +25,7 @@ public class Principal {
                 System.out.println("Compra realizada com sucesso!");
                 System.out.println("Saldo atual: " + cartao.getSaldo());
 
-                System.out.println("Deseja realizar outra compra?");
+                System.out.println("\nDeseja realizar outra compra?");
                 System.out.println("1 - Sim");
                 System.out.println("0 - Não");
                 sair = leitura.nextInt();
